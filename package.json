@@ -1,0 +1,24 @@
+{
+  "name": "live-server",
+  "version": "0.0.1",
+  "description": "connect python and other clients together to make live games and stuff",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.2",
+    "express": "^4.18.1",
+    "socket.io": "^4.5.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "sqlite"
+  ]
+}
